@@ -5,7 +5,7 @@ const fs = require('fs'),
       url  = require('url'),
       qs   = require('querystring'),
       { chapterList, userList} = require('./chapterList'),
-      path = require('path');
+      path = require('path'),
       log = console.log;
 
 var items = [];//用于存储表单从获取的值
